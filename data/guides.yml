@@ -269,6 +269,28 @@ Configuring Ember.js:
   - title: "Feature Flags"
     url: "configuring-ember/feature-flags"
 
+"Ember Inspector":
+  - title: "Installing the Inspector"
+    url: "ember-inspector"
+  - title: "Object Inspector"
+    url: "ember-inspector/object-inspector"
+  - title: "The View Tree"
+    url: "ember-inspector/view-tree"
+  - title: "Inspecting Routes"
+    url: "ember-inspector/routes"
+  - title: "Inspecting your Models"
+    url: "ember-inspector/data"
+  - title: "Viewing Deprecations"
+    url: "ember-inspector/deprecations"
+  - title: "Library Info"
+    url: "ember-inspector/info"
+  - title: "Debugging Promises"
+    url: "ember-inspector/promises"
+  - title: "Inspecting the Container"
+    url: "ember-inspector/container"
+  - title: "Render Performance"
+    url: "ember-inspector/render-performance"
+
 Cookbook:
   - title: "Introduction"
     url: "cookbook"
