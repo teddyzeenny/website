@@ -290,6 +290,8 @@ Configuring Ember.js:
     url: "ember-inspector/container"
   - title: "Render Performance"
     url: "ember-inspector/render-performance"
+  - title: "Troubleshooting"
+    url: "ember-inspector/troubleshooting"
 
 Cookbook:
   - title: "Introduction"
