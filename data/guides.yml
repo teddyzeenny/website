@@ -271,7 +271,7 @@ Configuring Ember.js:
 
 "Ember Inspector":
   - title: "Installing the Inspector"
-    url: "ember-inspector"
+    url: "ember-inspector/installation"
   - title: "Object Inspector"
     url: "ember-inspector/object-inspector"
   - title: "The View Tree"

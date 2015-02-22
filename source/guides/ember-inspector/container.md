@@ -22,8 +22,9 @@ object inspector, and then click on `$E` at the top right of the object inspecto
 
 ### Filter and Reload
 
-You can reload the container tab by click on the reload icon. To search
-for instances, type a query in the search box.
+You can reload the container tab by click on the reload icon.
+
+To search for instances, type a query in the search box.
 
 <img src="/guides/ember-inspector/images/container-toolbar.png" width="300"/>
 
