@@ -1,5 +1,9 @@
 The Ember Inspector extends browsers' developer tools to make understanding and debugging your Ember.js applications easier.
 
+Steps to install the inspector for Google Chrome, Firefox, other
+browsers (Bookmarklet), and apps running on mobile devices are explained
+below.
+
 ### Google Chrome
 
 You can install the Ember Inspector on Google Chrome as a new developer
@@ -24,7 +28,7 @@ and click on the `Ember` tab next to the rest of the devtools panels.
 
 If you need to use the inspector with the `file://` protocol.
 
-Visit the URL: `chrome://extensions` and check the below checkbox:
+Visit the URL: `chrome://extensions` and check the "Allow access to file URLs" checkbox:
 
 <img src="/guides/ember-inspector/images/installation-chrome-file-urls.png" width="400">
 
@@ -38,7 +42,7 @@ Click on `Options`.
 
 <img src="/guides/ember-inspector/images/installation-chrome-tomster.png" width="400">
 
-Make sure the below checkbox is checked.
+Make sure the "Display the Tomster" checkbox is checked.
 
 <img src="/guides/ember-inspector/images/installation-chrome-tomster-checkbox.png" width="400">
 
@@ -53,7 +57,7 @@ Click on "Add to Firefox".
 <img src="/guides/ember-inspector/images/installation-firefox-store.png" width="680">
 
 Once installed, go to an Ember.js application, open the developer tools,
-and click on the `Ember`.
+and click on the `Ember` tab.
 
 <img src="/guides/ember-inspector/images/installation-firefox-panel.png" width="680">
 
@@ -62,21 +66,21 @@ and click on the `Ember`.
 
 #### Enable Tomster
 
-To enable the tomster to show up sites built with Ember.js, visit
-`about:addons`.
+To enable the tomster to show up in the url bar whenever you are
+visiting a site that uses Ember.js Ember.js visit `about:addons`.
 
-Click on `Extensions`.
+Click on `Extensions` -> `Preferencesr.
 
 <img src="/guides/ember-inspector/images/installation-firefox-preferences.png" width="600">
 
-Make sure the below checkbox is checked.
+Make sure the "Display the Tomster icon when a site runs Ember.js" checkbox is checked.
 
 <img src="/guides/ember-inspector/images/installation-firefox-tomster-checkbox.png" width="400">
 
 
 ### Bookmarklet
 
-If you are any browser other than Chrome or Firefox, you can use the
+If you are using any browser other than Chrome or Firefox, you can use the
 bookmarklet option to use the inspector.
 
 Add the following bookmark:
@@ -96,7 +100,7 @@ using this option.
 ### Mobile Development
 
 If you want to run the inspector with apps running on mobile devices,
-you can use the [Ember Cli Remote Inspector][ember-cli-remote-inspector] Ember CLI addon.
+you can use the [Ember Cli Remote Inspector][ember-cli-remote-inspector] addon.
 
 [ember-cli-remote-inspector]: https://github.com/joostdevries/ember-cli-remote-inspector
 

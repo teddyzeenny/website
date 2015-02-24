@@ -288,7 +288,7 @@ Configuring Ember.js:
     url: "ember-inspector/promises"
   - title: "Inspecting the Container"
     url: "ember-inspector/container"
-  - title: "Render Performance"
+  - title: "Rendering Performance"
     url: "ember-inspector/render-performance"
   - title: "Troubleshooting"
     url: "ember-inspector/troubleshooting"

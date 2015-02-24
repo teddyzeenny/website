@@ -8,7 +8,7 @@ properties.
 Here's what you see when you click on the `posts` controller.
 
 
-<img src="/guides/ember-inspector/images/object-inspector-controller.png">
+<img src="/guides/ember-inspector/images/object-inspector-controller.png" width="450">
 
 
 You will see a list of parent objects and mixins that make up the object. The properties are organized by which parent object or
@@ -26,16 +26,16 @@ All properties are bound to your app, so property updates in your app will be re
 #### Object Inspector to the Console
 
 You can send objects and properties to the console by clicking on the `$E` button.
-This will set the value to the global `$E` variable. You can send the
-object being inspected by clicking on the `$E` button next to its name:
+This will set the value to the global `$E` variable.
 
-<img src="/guides/ember-inspector/images/object-inspector-$E.png">
+<img src="/guides/ember-inspector/images/object-inspector-$E.png"
+width="450">
 
-When you hover over the objet's properties, a `$E` button will appear
+When you hover over the object's properties, a `$E` button will appear
 next to every property. Click on it to send the property's value to the
 console.
 
-<img src="/guides/ember-inspector/images/object-inspector-property-$E.png">
+<img src="/guides/ember-inspector/images/object-inspector-property-$E.png" width="450">
 
 
 #### Console to the Object Inspector
@@ -60,11 +60,12 @@ these properties will auto-update.
 
 Click on a property's value to start editing.
 
-<img src="/guides/ember-inspector/images/object-inspector-edit.png">
+<img src="/guides/ember-inspector/images/object-inspector-edit.png"
+width="450">
 
 Date values will open a date picker while editing.
 
-<img src="/guides/ember-inspector/images/object-inspector-edit-date.png">
+<img src="/guides/ember-inspector/images/object-inspector-edit-date.png" width="450">
 
 Edit the property and press the `ENTER` key to commit the change, or `ESC` to cancel.
 
@@ -74,7 +75,7 @@ Edit the property and press the `ENTER` key to commit the change, or `ESC` to ca
 Properties that are themselves Ember objects or arrays can be inspected
 too. Click on the property's value to inspect it.
 
-<img src="/guides/ember-inspector/images/object-inspector-object-property.png">
+<img src="/guides/ember-inspector/images/object-inspector-object-property.png" width="450">
 
  You can keep
 navigating through the inspector as long as properties are either an
@@ -82,11 +83,11 @@ Ember object or an array.
 In the image below, we clicked on the `model` property first, then clicked
 on the `store` property.
 
-<img src="/guides/ember-inspector/images/object-inspector-nested-objects.png">
+<img src="/guides/ember-inspector/images/object-inspector-nested-objects.png" width="450">
 
 You can see the current path of the inspected object at the top of the
 inspector. You can go back to the previous object by clicking on the
-lef-facing arrow at the top left.
+left-facing arrow at the top left.
 
 ### Custom Property Grouping
 
@@ -95,7 +96,8 @@ by framework level semantics. For example, if you inspect an Ember Data
 model, you can see `Attributes`, `Belongs To`, `Has Many`, and `Flags`
 groups.
 
-<img src="/guides/ember-inspector/images/object-inspector-model.png">
+<img src="/guides/ember-inspector/images/object-inspector-model.png"
+width="450">
 
 You can customize how any object shows up in the object inspector, and
 Ember Data models are just an example. If you are a library author, you

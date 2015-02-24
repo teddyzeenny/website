@@ -8,7 +8,7 @@ inspect these instances using the inspector's container tab.
 You will see a list of object types the container has cached. Click on
 one type to see the list of all instances created by the container.
 
-In our case, we are looking that the instantiated controllers.
+In our case, we are looking at the instantiated controllers.
 
 
 ### Inspecting Instances
@@ -22,7 +22,7 @@ object inspector, and then click on `$E` at the top right of the object inspecto
 
 ### Filter and Reload
 
-You can reload the container tab by click on the reload icon.
+You can reload the container tab by clicking on the reload icon.
 
 To search for instances, type a query in the search box.
 

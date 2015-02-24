@@ -40,11 +40,11 @@ already booted.
 
 ### Data Adapter Not Detected
 
-You click on the "Data" tab, and see this message:
+When you click on the Data tab, and see this message:
 
 <img src="/guides/ember-inspector/images/troubleshooting-data-adapter.png" width="350">
 
-This means that you are either not using a data persistence library
+It means that you are either not using a data persistence library
 (such as Ember Data), or the library you're using does not support the
 Ember Inspector.
 
@@ -52,7 +52,7 @@ If you are the library's author, [see this section](/guides/ember-inspector/data
 
 ### Promises Not Detected
 
-You click on the "Promises" tab, and see this message:
+You click on the Promises tab, and see this message:
 
 <img src="/guides/ember-inspector/images/troubleshooting-promises-not-detected.png" width="350">
 
